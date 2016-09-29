@@ -1,0 +1,26 @@
+{
+  "name": "step",
+  "version": "1.0.0",
+  "description": "step trigger",
+  "main": "index.js",
+  "scripts": {
+    "test": "wavepot -b test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opendsp/step.git"
+  },
+  "keywords": [
+    "sequencing",
+    "audio"
+  ],
+  "author": "stagas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opendsp/step/issues"
+  },
+  "homepage": "https://github.com/opendsp/step#readme",
+  "devDependencies": {
+    "studio": "github:opendsp/studio"
+  }
+}
