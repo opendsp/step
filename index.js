@@ -1,4 +1,10 @@
 
+/**
+ * @module step
+ * @author stagas
+ * @license 
+ */
+
 export default function step(bpm) {
   return function(sig, offset) {
     offset = offset ? Math.round((60 / bpm * 4) * sampleRate * offset) : 0;
